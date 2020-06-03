@@ -1,0 +1,151 @@
+* {
+	margin: 0px;
+}
+
+
+.header {
+	background-color: #44609C;
+	width: 100%;
+	height: 86px;
+	font-family: "Merriweather", -apple-system, BlinkMacSystemFont, 
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+div.control {
+	width: auto;
+	height: 80px;
+}
+
+.control h1 {
+	color: #fff;
+	font-size: 250%;
+	font-weight: bold;
+	float: left;
+	margin-top: 20px;
+	margin-left: 16px;
+}
+
+span.log {
+	position: relative;
+	float: left;
+	left: 400px;
+	margin-top: 10px;	
+}
+th.font {
+	color: #fff;
+	font-weight: inherit;
+	font-size: 85%;	
+}
+
+th.font1 {
+	position: relative;
+	right:27px;
+}
+
+th.font2 {
+	position: relative;
+	right: 44px;
+}
+
+.text {
+	width: 150px;
+	height: 16px;
+	margin-left: 10px;
+}
+a.in {
+	background-color:#4B66A0;
+	color:#fff;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 1px 4px;
+	border:1px solid #49497E;
+	margin-left: 8px;
+	margin-bottom: 2px;
+	font-size: 90%;
+	font-weight: bold;
+	padding-bottom: 4px;
+}
+
+a.in:hover {
+	background-color:#365899;
+}
+
+a.forgot {
+	position: relative;
+	color: #fff;
+	font-size: 80%;
+	left: 9px;
+	bottom: 5px;
+	text-decoration:none; 
+}
+
+a.forgot:hover {
+	color: #718BBB;	
+}
+
+.content {
+	width: 100%;
+	height: 600px;	
+	background-image: linear-gradient(to bottom, #fff,#D4D9E8);
+	font-family:"Merriweather", -apple-system, BlinkMacSystemFont, 
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.left {
+	float: left;
+	width: 47%;
+	margin-left: 16px;
+	margin-top: 45px; 
+	box-sizing: border-box;
+	color: #20476B;
+	font-size: 88%;
+	overflow: hidden;
+
+}
+
+img.photo {
+	margin-top: 4px;
+	
+}
+
+.right {
+	float: right;
+	width: 48%;
+}
+
+div.h {
+	margin-top: 20px;
+	margin-left: 55px;
+	font-size: 120%;
+	
+}
+
+h1 {
+	margin-bottom: 5px;
+	color: #333333;
+}
+
+p {
+	color: black;
+	font-family: arial;
+}
+
+
+table.tb {
+	margin-top: 20px;
+	width: auto;
+	height: auto;
+}
+input.ipt {
+	position: relative;
+	left: 45px;
+	padding: 8px 8px;
+	
+}
+
+td.tdd {
+	width: 150px;
+	margin-bottom: 16px;
+}
