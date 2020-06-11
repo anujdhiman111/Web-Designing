@@ -1,7 +1,12 @@
+* {
+	margin: 0px;
+}
+
 body {
-	width: 1000px;
+	width: 100%;
   padding: 0;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   height: auto;
   background:rgb(92, 77, 66, 0.8);
 
@@ -13,7 +18,7 @@ body {
 header.header.page-header.container-fluid {
 	height: 780px;
 	margin: 0px;
-	width: 100%;
+	max-width: 100%;
 	padding-left:0px;
 	padding-right:0px; 
 	
@@ -32,14 +37,25 @@ header.header.page-header.container-fluid {
 /*--- navigation bar ---*/
 
 .navbar {
-	background:transparent;
+background:transparent;
   background-color: transparent;
-  width: 100%;
+  min-width: 100%;
   z-index: 1;
   padding: 0px;
+  position: fixed;
+}
+
+.collapse {
+	float: right;
+
+}
+.navbar-nav {
+	float: right;
 }
 nav.scrolled {
 	background-color:#fff;
+	max-width: 100%;
+	opacity: 0.5;
 }
 
 .nav-link,
@@ -92,6 +108,9 @@ display:none;
 display: block;
 }
 
+div.content {
+	height: auto;
+}
 .overlay {
 
 	position: absolute;
@@ -109,31 +128,44 @@ display: block;
 	position: absolute;
 	top: 25%;
 	color: #fff;
-    width: 766px;
-    text-align: center;
-    height: 400px;
-    margin-left: 120px;
+    width: 100%;
+    height: auto;
     box-sizing: border-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+div.hd {
+	width: 100%;
+}
 h1.heading {
 	font-size: 50px;
-	width: 760px;
+    width: 60%;
 	padding-bottom: 18px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 hr.divider {
-	width: 55px;
-	height: 3px;
+	max-width: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 2px;
 	background-color: #f4623a;
+	text-align: center;
+	margin-top: 5px;
 }
 
 p.paragraph {
-	width: 645px;
+	max-width: 60%;
 	font-size: 21px;
-	padding-left: 90px;
-	margin: 35px 0;
+	margin-right: auto;
+	margin-left: auto;
+	box-sizing: border-box;
 	color: rgba(255, 255, 255, 0.75);
+	margin-top: 10px;
 }
 
 a.btnn {
@@ -141,9 +173,10 @@ a.btnn {
 	color: #fff;
 	border-radius: 35px;
 	size: 120%;
-	padding: 20px 25px;
-	margin-right: 10px;
-	margin-top: 15px;
+	margin-top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 30px;
 }
 
 a.btnn:hover {
@@ -155,17 +188,18 @@ a.btnn:hover {
 	position: relative;
 	top: -62px;
 	height: 550px;
-	background-color:#f4623a;
-	
+	background-color:#f4623a;	
 	color: #fff;
 }
 
 div.second-heading {
-	width: 600px;
+	max-width: 100%;
 	position: relative;
 	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 	top: 30%;
-	left: 20%;
+	
 }
 
 h2.h2 {
@@ -173,17 +207,21 @@ h2.h2 {
 }
 
 .divider2 {
-	margin: none;
+	margin-left:auto;
+	margin-right: auto;
 	padding: none;
-	width: 55px;
-	height: 3px;
+	max-width: 60px;
+	height: 2px;
 	background-color: #fff;
 }
 
 p.p2 {
+	max-width: 55%;
 	margin-top: 30px;
 	font-size: 110%;
 	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
 	color: rgba(255, 255, 255, 0.5);
 }
 
@@ -194,6 +232,7 @@ a.button {
 	border-radius: 35px;
 	size: 120%;
 	padding: 12px 25px;
+	margin-top: 20px;
 }
 
 a.button:hover {
@@ -202,7 +241,8 @@ a.button:hover {
 }
 
 .third-content {
-	height: 500px;
+	height: 430px;
+	text-align: center;
 }
 
 h2.h3 {
@@ -214,14 +254,16 @@ h2.h3 {
 }
 
 .divider3 {
-	width: 55px;
-	height: 3px;
+	max-width: 60px;
+	height: 2px;
 	background-color: #f4623a;
 	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 div.rows {
-	width: 100%;
+	max-width: 100%;
 	height: 64%;
 	margin-top: 80px;
 	padding: 0 7px;
@@ -235,20 +277,20 @@ p.p4 {
 
 div.col.col-lg-3 {
 	text-align: center;
-	width:25%;
+	max-width:25%;
 	float: left;
 	
 }
 div.six {
 	width: 100%;
-	height: 361px;
+	height:461px;
 }
 div.rows1 {
-	width: 100%;
+	max-width: 100%;
 
 }
 img.imgg {
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 	filter: grayscale(100%);
 	transition: 1s;
@@ -260,7 +302,7 @@ img.imgg:hover {
 }
 
 div.col.col-lg-4.column3 {
-	width:33.3%;
+	max-width:33.3%;
 	float: left;
 	padding-left:0px;
 	padding-right:0px; 
@@ -268,34 +310,33 @@ div.col.col-lg-4.column3 {
 
 .forth-content {
 	position: relative;
-	height: 400px;
+	max-width: 100%;
+	height: 380px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: #343a40;
 }
-
-
-
-div.forth-heading {
-	height: 300px;
+.forth-heading {
+	max-width: 100%;
+     height: 350px;
 }
 
 h2.h5 {
-	position: relative;
+	font-size: 250%;
 	color: #fff;
-	top:40%;
-	left: 23%;
-	font-size: 230%;
-	width: 590px;
+	padding-top: 80px;
 }
 
 a.button2 {
-	position: absolute;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
 	color: black;
-    top:50%;
-    left: 39%;
-    margin-left:0px;
     background-color: #fff;
     border-radius: 35px;
     padding: 17px 30px;
+    margin-top: 50px;
 }
 
 a.button2:hover {
@@ -304,28 +345,35 @@ a.button2:hover {
 }
 
 div.column4 {
-	margin-top: 50px;
-	height: auto;
-
-}
-
-
-.pics1 {
-	width: auto;
 	position: relative;
-	margin-left: 240px;
+	margin-top: 50px;
+	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.pics1 {
+	position: relative;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 	box-sizing: border-box;
 }
 
 img.photoo {
-	width: 500px;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 		
 }
 
 .pics2 {
 	position: absolute;
 	bottom: 0;
-	width: 500px;	
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 	background-color: rgba(0, 0, 0, 0.7);
 	color: #fff;
 	padding: 25px 0;
@@ -335,6 +383,9 @@ img.photoo {
 
 div.pics2 p {
 	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%
 }
 
 .cycle-prev {
@@ -342,7 +393,9 @@ div.pics2 p {
 	font-weight: bold;
 	top: 30%;
 	cursor: pointer;
-	left: 37.4%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 	z-index: 222;
 	color: #fff;
 	font-size: 170%;	
@@ -366,12 +419,14 @@ div.pics2 p {
 .cycle-slideshow:hover .cycle-next {
 	opacity: 1;
 }
+.cycle-slideshow {
+	height: 550px;
+}
 .cycle-pager {
 	position: absolute;
-	width: 100%;
+	max-width: 100%;
 	top: 0;
 	font-size: 150%;
-	left: 73%;
 	z-index: 222;
 	color: #fff;
 	cursor: pointer;
@@ -391,67 +446,68 @@ div.pics2 p {
 	left:25px;
 }
 
+
 .fifth-content {
-	position: relative;
-	height: 500px;
-	font-family: "Merriweather"
+	max-width: 100%;
+	height: 350px;
+	margin-top: 50px;
+	box-sizing: border-box;
 }
 
 div.fifth-heading {
-	position:absolute; 
 	text-align: center;
-	width: 600px;
-	height: 300px;
-	margin-left:25%;
-	top:20%;
+	max-width: 100%
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;	
 }
   h2.h7 {
   	margin-bottom: 50px;
-  	margin-right: 75px;
+  	max-width: 100%;
   	font-size:250%;
   }
  
  p.p5 {
  	margin-top: 30px;
- 	margin-right: 55px;
  	color: #6c757d;
  	font-size: 125%;
- 	width: 580px;
+ 	max-width: 60%;
+ 	text-align: center;
+ 	margin-left: auto;
+ 	margin-right: auto;
  }
 
 hr.divider4 {
-    position: absolute;	
-	width: 55px;
+   
+	max-width: 60px;
 	height: 2px;
 	background-color:#f4623a;
-	top:17%;
-	left: 40%;
+	text-align: center;
+ 	margin-left: auto;
+ 	margin-right: auto;
 	display: block;
-	
 }
 
 
 div.row {
-	width: 100%;
+	max-width: 100%;
 	color: #6c757d;
-	position: absolute;
-	top: 60%;
-	font-size: 130%;
+	
 }
 
-.column {
-	position: absolute;
-	left:26%;
+.column {	
+	left:30%;
 }
 
 .column1 {
-	position: absolute;
 	left: 20%;
 	top:-4px;
 	height: 90px;
 }
 a.link {
 	color: rgb(255, 0, 0, 0.6);
+	position: relative;
+	left:12px;
 }
 
 a.link:hover {
@@ -462,7 +518,7 @@ footer {
 	background-color: #f8f9fa
 }
 .end {
-	width: 100%;
+	max-width: 100%;
     height: 80px;
 }
 
