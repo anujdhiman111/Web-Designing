@@ -16,7 +16,7 @@ body {
 }
 
 header.header.page-header.container-fluid {
-	height: 780px;
+	height: 740px;
 	margin: 0px;
 	max-width: 100%;
 	padding-left:0px;
@@ -117,7 +117,7 @@ div.content {
 	background-color: rgb(92, 77, 66, 0.8);
 	top: 0;
 	left: 0;
-	min-height: 800px;
+	min-height: 742px;
 	min-width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -146,6 +146,15 @@ h1.heading {
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+button[type="btn"] {
+	background-color:#f4623a;
+	color: #fff;
+	padding: 20px 30px;
+	border-radius: 35px;
+	border: none;
+
 }
 
 hr.divider {
@@ -186,8 +195,7 @@ a.btnn:hover {
 
 .second-content {
 	position: relative;
-	top: -62px;
-	height: 550px;
+	height: 600px;
 	background-color:#f4623a;	
 	color: #fff;
 }
@@ -198,8 +206,25 @@ div.second-heading {
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
-	top: 30%;
-	
+	align-items: center;
+	height: 500px;
+	top: 130px;
+}
+
+button[type="btn1"] {
+	background-color:#fff;
+	padding: 20px 40px;
+	border: none;
+    border-radius: 35px;
+}
+
+span.click {
+	font-weight: bold;
+}
+p.p22 {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 10px;
 }
 
 h2.h2 {
@@ -347,7 +372,7 @@ a.button2:hover {
 div.column4 {
 	position: relative;
 	margin-top: 50px;
-	height: 550px;
+	height: 445px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -391,14 +416,13 @@ div.pics2 p {
 .cycle-prev {
 	position: absolute; 
 	font-weight: bold;
-	top: 30%;
+	top: 50%;
+     left: 0px;
 	cursor: pointer;
 	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
 	z-index: 222;
 	color: #fff;
-	font-size: 170%;	
+	font-size: 180%;	
 	opacity: 0;
 	transition: 1s;
 }
@@ -406,21 +430,21 @@ div.pics2 p {
 .cycle-next {
 	position: absolute;
 	font-weight: bold;
-	top: 30%;
+	top: 50%;
 	cursor: pointer;
     z-index: 222;
-    right:-15.2%; 
+    right:0px;
    color: #fff;
-   font-size: 170%;
+   font-size: 180%;
    opacity: 0;
-   transition: 1s;
+   transition: 0.3s;
 }
 .cycle-slideshow:hover .cycle-prev,
 .cycle-slideshow:hover .cycle-next {
 	opacity: 1;
 }
 .cycle-slideshow {
-	height: 550px;
+	height: 445px;
 }
 .cycle-pager {
 	position: absolute;
@@ -460,6 +484,7 @@ div.fifth-heading {
 	height: auto;
 	margin-right: auto;
 	margin-left: auto;	
+	margin-top: 200px;
 }
   h2.h7 {
   	margin-bottom: 50px;
@@ -529,6 +554,20 @@ p.copy {
 	color: #6c757d;
 	font-size: 90%;
 }
+button[type="btn2"] {
+	background-color:#696363;
+	color: #fff;
+	position: relative;
+	left:1110px;
+	border-radius:30px;
+	border: none;
+	cursor: pointer;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+button[type="btn2"]:hover {
+color: black;
 
 .fix{
 	clear:both;
