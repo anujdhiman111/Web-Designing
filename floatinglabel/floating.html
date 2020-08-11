@@ -9,7 +9,7 @@
   
      </head>
      <body>
-     	<div class="container">
+     	<div class="container" id="demo1">
      		<div class="content">
      			
      			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png" style="max-width:19%; max-height:auto;">
@@ -40,7 +40,9 @@
              <div class="footer">
              <p>&copy; 2019-2020</p>
          </div>
-
+<button type="button" onclick="document.getElementById('demo1').style.display='none'">Click me to change font size</button>
      	</div>
+     	<p id="demo"></p>
+     	<button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Click me</button>
      </body>
   </html>

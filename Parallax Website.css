@@ -1,0 +1,116 @@
+* {
+	margin: 0px;
+}
+body {
+	height: 100%;
+	font-size: 17px;
+}
+
+.pic1 {
+	height: 640px;
+	background-image: url(https://wallpaperaccess.com/full/123346.jpg);
+	opacity: 0.6;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div.heading {
+	padding-top: 220px;
+}
+h1 {
+	background-color:#585858;
+	color:#fff;
+	width: 40%;
+	margin-right: auto;
+	margin-left:auto;
+	justify-content: center;
+	letter-spacing: 8px;
+	padding: 20px 0px 20px 20px;
+	text-transform: uppercase;
+
+}
+span {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	left: 12px;
+}
+.section1 {
+	background-color: #F4F4F4;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+    color: #666;
+    padding: 50px 80px;
+}
+
+h2 {
+   font-size: 150%;
+   padding-bottom: 30px;
+
+}
+
+p {
+	max-width: 97%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	word-spacing:2px;
+	line-height: 1.4;
+}
+.pic2 {
+	height: 400px;
+	background-image: url(https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&w=1000&q=80);
+	opacity: 1;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.section2 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+    padding: 50px 80px;
+    background-color: #282E34;
+    color: #fff;
+
+}
+.pic3 {
+	background-image: url(https://d12dkjq56sjcos.cloudfront.net/pub/media/wysiwyg/shanghai/01-city-landing/Shanghai-Skyline-Night-Big-Bus-Tours-01-2017.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    background-size: cover;
+}
+.section3 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+    padding: 50px 80px;
+    background-color:#282E34;
+    color: #fff
+}
+.pic4 {
+	opacity: 0.7;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 640px;
+	background-image: url(https://ze-robot.com/dl/mi/minimalist-cities-by-romain-trystram-zip-in-comments-2560%C3%971080.jpg);
+}
+h1.tt {
+	background-color: #282E34;
+}
+span.media {
+    text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	left: 34px;
+}
